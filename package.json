@@ -1,0 +1,29 @@
+{
+    "name": "fsspace",
+    "version": "0.1.0",
+    "description": "Filesystem space in bytes ",
+    "main": "build/Release/fsspace",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+    "os" : [ "darwin", "linux" ],
+    "dependencies": {},
+    "gypefile": true,
+    "license": "BSD",
+    "repository": "git@github.com:craig-miller/fsspace/fsspace.git",
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "keywords": [
+        "node",
+        "df",
+        "diskspace",
+        "diskfree",
+        "fsspace"
+    ],
+    "bugs": {
+        "url": "https://github.com/craig-miller/fsspace/issues"
+    },
+    "homepage": "https://github.com/craig-miller/fsspace"
+}
