@@ -48,7 +48,7 @@ bool FileSystemSpace::status(
     bytesUsed = bytesTotal - bytesAvail;
   
     // % of user process bytes used
-    pctUsed= (float)bytesUsed / (float)bytesTotal * 100.0;
+    pctUsed = (float)bytesUsed / (float)bytesTotal * 100.0;
 
     return true;
 }
