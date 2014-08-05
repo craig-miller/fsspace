@@ -1,6 +1,6 @@
 {
     "name": "fsspace",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "Queries a specified filesystem for usage statistics including: bytes Total, bytes available, bytes used, and percent used.",
     "main": "build/Release/fsspace",
     "scripts": {
