@@ -1,7 +1,7 @@
 {
     "name": "fsspace",
     "version": "0.1.0",
-    "description": "Filesystem space in bytes ",
+    "description": "Queries a specified filesystem for usage statistics including: bytes Total, bytes available, bytes used, and percent used.",
     "main": "build/Release/fsspace",
     "scripts": {
         "test": "./node_modules/.bin/mocha --reporter spec"
